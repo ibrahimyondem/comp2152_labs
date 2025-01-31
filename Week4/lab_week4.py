@@ -166,7 +166,12 @@ belt.append(loot)
 print("Your belt: " + belt)
 
 
-#Lab 04 -Q6
+#Lab 04 - Q6 - item 2
+input("Roll for the second item (Press enter)")
+lootRoll = random.choice(range(1, len(loot_options) + 1))
+loot = loot_options.pop(lootRoll - 1)
+belt.append(loot)
+print("Your belt: " + belt)
 
 
 
