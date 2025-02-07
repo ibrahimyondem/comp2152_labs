@@ -20,8 +20,8 @@ def use_loot(belt, health_options):
         health_options = max(20, (health_options -2))
         print("    |    You used " + first_item + " to hurt your health to " +  str(health_options))
     else:
-        print("    |    You used " + + " but it's not helpful")
-    return
+        print("    |    You used " + first_item+ " but it's not helpful")
+    return belt, health_options
 
 
 # Lab 5: Question 3
