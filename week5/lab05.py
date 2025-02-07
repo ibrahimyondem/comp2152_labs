@@ -131,6 +131,7 @@ if not input_invalid:
     print("    |    Your belt: ", belt)
 
     ## Lab 5 - Question 4: Use Loot
+    belt, health_points = functions_lab05.use_loot(belt, health_points)
 
     print("    ------------------------------------------------------------------")
     print("    |", end="    ")
@@ -243,4 +244,3 @@ if not input_invalid:
         stars_display = "*" * num_stars
         # Lab 5 - Question 2:
         print("    |    Hero " + short_name + "gets <" + stars_display + "> starts")
-
