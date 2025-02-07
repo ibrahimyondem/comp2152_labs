@@ -120,10 +120,10 @@ def monster_attacks(m_combat_strength, health_points):
 # Lab 5: Question 7
 # Recursion
 # You can choose to go crazy, but it will reduce your health points by 5
-def inception_dream(num_dream_lvls):
-    num_dream_lvls = int(num_dream_lvls)
+def inception_dream(num__dream_lvls):
+    num__dream_lvls = int(num__dream_lvls)
     # Base Case
-    if num_dream_lvls == 1:
+    if num__dream_lvls == 1:
         print("    |    You are in the deepest dream level now")
         print("    |", end="    ")
         input("Start to go back to real life? (Press Enter)")
@@ -138,4 +138,4 @@ def inception_dream(num_dream_lvls):
         # 1 + 1 + 1 + inception_dream(2)
         # 1 + 1 + 1 + 1 + inception_dream(1)
         # 1 + 1 + 1 + 1 + 2
-        return 1 + int(inception_dream(num_dream_lvls - 1))
+        return 1 + int(inception_dream(num__dream_lvls - 1))
