@@ -7,4 +7,4 @@ class Tick:
         print("Tick is feeding")
 
     def __del__(self):
-        print("Tick is destroyed")
+        print("Aggregation: Tick is destroyed.")

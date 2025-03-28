@@ -17,10 +17,9 @@ class Person(Mammal):
         self.name = p_name
         self.__height = p_height
 
-
     def __del__(self):
         print("Destructor: The garbage collector is now deleting the person object")
-        super(Person,self).__del__()
+        super(Person, self).__del__()
 
         # Complex getter for height
     @property
@@ -30,6 +29,7 @@ class Person(Mammal):
     @height.setter
     def height(self, p_height):
         self.__height = p_height
+
 
     # Lab 12 - Private or protected METHODS are not possible in python.
     # Lab 12 - This means that all methods are public and can be overridden in a derived class.
